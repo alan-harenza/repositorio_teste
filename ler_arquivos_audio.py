@@ -1,6 +1,6 @@
 import speech_recognition as sr
 
-#esse é o recognizer
+# esse é o recognizer
 rec = sr.Recognizer()
 
 with sr.AudioFile("teste.wav") as arquivo_audio:
