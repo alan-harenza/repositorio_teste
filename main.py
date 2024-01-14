@@ -18,4 +18,4 @@ try:
     texto = rec.recognize_google(audio, language="pt-BR")
     print(texto)
 except:
-    print("Não peguei áudio nenhum")
+    print("Não entendi o que foi falado")
